@@ -4,13 +4,10 @@ class Hello {
         Student s1 = new Student();
         Student s2 = new Student();
 
-        s1.name = "Pratik";
-        s1.age = 21;
-        s1.rollno = 57;
 
-        s2.name = "Mayur";
-        s2.age = 21;
-        s2.rollno = 59;
+        s2.name = "Mahesh";
+        s2.age = 25;
+        s2.rollno = 55;
 
         s1.print();
         s2.print();
@@ -26,6 +23,12 @@ class Student{
 
     void print(){
         System.out.println( name +" "+age + " "+ rollno);
+    }
+
+    Student(){
+        name = "Pratik";
+        age = 21;
+        rollno = 57;
     }
 
 }
